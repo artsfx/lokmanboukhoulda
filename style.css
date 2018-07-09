@@ -180,6 +180,7 @@ align-items: center;
 	border: 0 solid #fff;
 	font-size: 20px;
 	outline: none;
+	text-decoration: none;
 }
 
 .next:hover {
