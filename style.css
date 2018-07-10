@@ -198,7 +198,9 @@ align-items: center;
 	cursor: pointer;
 }
 
-
+.fa-chevron-down {
+		transition: all .2s;
+}
 .next:hover .fa-chevron-down {
 	transition: all .2s;
 	transform: rotate(-90deg);
