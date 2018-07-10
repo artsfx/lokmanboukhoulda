@@ -1,17 +1,27 @@
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 html {
 		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
 }
 body {
  background: linear-gradient(to top, #6600cc 0%, #9900cc 100%);
  	background-size: cover;
 	background-attachment: fixed;
-	margin: 0px;
 	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
 }
 
 h1 {
 	font-size: 30px;
+	margin: 0  15px 15px 15px ;
+}
+
+p {
+margin: 0  15px 15px 15px ;
 }
 
 h2 {
