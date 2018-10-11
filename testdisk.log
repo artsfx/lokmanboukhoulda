@@ -1,0 +1,19 @@
+
+
+Sun Oct  7 09:57:25 2018
+Command line: TestDisk
+
+TestDisk 7.1-WIP, Data Recovery Utility, June 2018
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Darwin, kernel 17.4.0 (Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64) x86_64
+Compiler: GCC 4.0
+Compilation date: 2018-09-22T11:36:32
+ext2fs lib: 1.42.8, ntfs lib: libntfs-3g, reiserfs lib: 0.3.1-rc8, ewf lib: 20120504, curses lib: ncurses 5.4
+User is not root!
+Hard disk list
+Disk /dev/disk2 - 100 MB / 96 MiB - 196682 sectors (RO), sector size=512
+Disk /dev/rdisk2 - 100 MB / 96 MiB - 196682 sectors (RO), sector size=512
+
+
+TestDisk exited normally.

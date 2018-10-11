@@ -1,0 +1,27 @@
+{
+    "name": "lokmanboukhoulda",
+    "version": "1.0.0",
+    "description": "My portfolio",
+    "main": "script.js",
+    "scripts": {
+        "build-css": "node-sass sass/main.scss css/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/artsfx/lokmanboukhoulda.git"
+    },
+    "author": "Lokman Boukhoulda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/artsfx/lokmanboukhoulda/issues"
+    },
+    "homepage": "https://github.com/artsfx/lokmanboukhoulda#readme",
+    "dependencies": {
+        "live-server": "^1.2.0"
+    },
+    "devDependencies": {
+        "node-sass": "^4.9.3",
+        "nodemon": "^1.18.4"
+    }
+}
