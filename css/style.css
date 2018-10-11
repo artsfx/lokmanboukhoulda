@@ -156,6 +156,19 @@ article {
     .portfolio-container__card a {
       display: block; }
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .contact-container__email {
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 900; }
+
 /********* START MEDIA *************/
 @media all and (max-width: 1200px) {
   .aboutme-container {
