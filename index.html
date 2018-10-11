@@ -27,8 +27,8 @@
                     jumbotron-container__btn-animated" onclick="aboutme()">About me</button>
     </div>
 
-    <article id="aboutme">
-        <div class="aboutme-container">
+    <article>
+        <div class="aboutme-container" id="aboutme">
             <div class="aboutme-paragraph">
                 <h2 class="head">Who I am?</h2>
                 <p>
@@ -64,25 +64,28 @@
       <i class="fas fa-chevron-down fa-2x"></i><h2>Portfolio</h2>
   </button>
     </div>
-    <article class="portfolio-container">
-        <div class="portfolio-container__card">
-            <div class="portfolio-container__card-content">
-                <a href="https://face-detecting.herokuapp.com/">
-                    <img src="images/face-detecting-preview.jpg" alt="face detecting app" style="width:100%">
-                    <h3 class="portfolio-container__card-title">Face Detecting App</h3>
-                </a>
+    <article>
+        <div class="portfolio-container">
+            <div class="portfolio-container__card">
+                <div class="portfolio-container__card-content">
+                    <h3 class="portfolio-container__card-title">
+                        <a href="https://face-detecting.herokuapp.com/">
+                            <img src="images/face-detecting-preview.jpg" alt="face detecting app" style="width:100%"> Face Detecting App</a>
+                    </h3>
+                </div>
+                <p class="portfolio-container__card-description">This is a React App that gets an image url and detects faces after image processing.</p>
             </div>
-            <p class="portfolio-container__card-description">This is a React App that gets an image url and detects faces after image processing.</p>
-        </div>
 
-        <div class="portfolio-container__card">
-            <div class="portfolio-container__card-content">
-                <a href="https://robofriends-search.herokuapp.com/">
-                    <img src="images/robofriends-preview.jpg" alt="face detecting app" style="width:100%">
-                    <h3 class="portfolio-container__card-title">Robofriends App</h3>
-                </a>
+            <div class="portfolio-container__card">
+                <div class="portfolio-container__card-content">
+                    <h3 class="portfolio-container__card-title">
+                        <a href="https://robofriends-search.herokuapp.com/">
+                            <img src="images/robofriends-preview.jpg" alt="face detecting app" style="width:100%"> Robofriends App
+                        </a>
+                    </h3>
+                </div>
+                <p class="portfolio-container__card-description">This is a simple React App that imports a JSON file from an online api and displays the results.</p>
             </div>
-            <p class="portfolio-container__card-description">This is a simple React App that imports a JSON file from an online api and displays the results.</p>
         </div>
     </article>
     <div class="next-section-container">
@@ -91,16 +94,18 @@
                 <h2>Contact</h2>
             </button>
     </div>
-    <article class="contact-container">
-        <h1>Feel free to contact me for any question or comment!</h1>
-        <a href="mailto:boukhoulda.lokman@gmail.com" class="contact-container__email">
+    <article>
+        <div class="contact-container">
+            <h1>Feel free to contact me for any question or comment!</h1>
+            <button location.href="mailto:boukhoulda.lokman@gmail.com" class="contact-container__email">
             <h1>Write me an email?</h1>
-        </a>
-        <div class="photo-social">
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/lokmanboukhoulda/"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://github.com/artsfx"><i class="fab fa-github-square fa-2x"></i></a>
-                <a href="https://codepen.io/metalokman/"><i class="fab fa-codepen fa-2x"></i></a>
+        </button>
+            <div class="photo-social">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/lokmanboukhoulda/"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/artsfx"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a href="https://codepen.io/metalokman/"><i class="fab fa-codepen fa-2x"></i></a>
+                </div>
             </div>
         </div>
     </article>
