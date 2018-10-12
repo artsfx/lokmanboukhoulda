@@ -9,6 +9,8 @@
                     $color-article: #000;
                     $color-shadow: #000;
                     $color-text-next: #000;
+                    $color-white: #fff;
+                    $color-grey-dark: #777;
                     * {
                         padding: 0;
                         margin: 0;
@@ -98,8 +100,50 @@
                             box-shadow: .2rem .2rem 1.5rem rgba($color-shadow, 0.4);
                             color: $color-button;
                             border: none;
+                            border-radius: 2rem;
                             outline: none;
                             cursor: pointer;
+                            &:link,
+                            &:visited {
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                padding: 1.5rem 4rem;
+                                display: inline-block;
+                                transition: all .2s;
+                                border-radius: 10rem;
+                                position: relative;
+                            }
+                            &:hover {
+                                transform: translateY(-.3rem);
+                                box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+                            }
+                            &:active {
+                                transform: translateY(-1px);
+                                box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+                            }
+                            &-white {
+                                background-color: $color-white;
+                                color: $color-grey-dark;
+                            }
+                            &::after {
+                                content: "";
+                                height: 100%;
+                                width: 100%;
+                                top: 0;
+                                left: 0;
+                                display: inline-block;
+                                border-radius: 2rem;
+                                z-index: -1;
+                                position: absolute;
+                                transition: all .4s;
+                            }
+                            &-white::after {
+                                background-color: $color-white;
+                            }
+                            &:hover::after {
+                                transform: scaleX(1) scaleY(1.6);
+                                opacity: 0;
+                            }
                         }
                         &__btn-animated {
                             animation-name: moveInTop;
@@ -128,11 +172,10 @@
                         flex-direction: column;
                     }
                     
-                    #aboutme {
-                        display: flex;
-                        flex-direction: column;
-                    }
-                    
+                    // #aboutme {
+                    //     display: flex;
+                    //     flex-direction: row;
+                    // }
                     .head {
                         display: flex;
                         margin-top: 0rem;
