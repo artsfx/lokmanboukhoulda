@@ -149,6 +149,7 @@ article {
   flex-wrap: wrap;
   justify-content: center; }
   .portfolio-container__card {
+    flex: 0 1 40%;
     margin-left: 2rem;
     margin-bottom: 2rem;
     justify-content: center;
@@ -190,11 +191,15 @@ article {
   .aboutme-container {
     flex-direction: column-reverse;
     justify-content: center; }
+  .portfolio-container__card {
+    flex: 0 1 100%; }
   .head {
     justify-content: center;
     text-align: center; } }
 
 @media all and (max-width: 600px) {
+  .portfolio-container__card {
+    flex: 0 1 100%; }
   .aboutme-container {
     flex-direction: column-reverse;
     justify-content: center; }
