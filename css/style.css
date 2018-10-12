@@ -149,7 +149,7 @@ article {
   flex-wrap: wrap;
   justify-content: center; }
   .portfolio-container__card {
-    flex: 0 1 40%;
+    flex: 0 1 35%;
     margin-left: 2rem;
     margin-bottom: 2rem;
     justify-content: center;
